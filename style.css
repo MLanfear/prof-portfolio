@@ -1,3 +1,72 @@
-h1 {
-    color: blue;
+* {
+    margin: 0 0 0 10px;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    color: darkmagenta;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 35px 50px;
+}
+header h1 {
+    color: magenta;
+    font-size: 90px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+}
+.primary-border {
+    color:crimson;
+}
+.secondary-border {
+    color:cadetblue
+}
+.section-title {
+    font-size: 65px;
+    color:red;
+    margin-bottom: 43px;
+    padding: 0 125px 20px 125px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+section {
+    padding: 60px;
+
+}
+header nav {
+    float: right;
+    margin: 7px 0;
+    padding-top: 10px;
+    border: 3px solid darkmagenta;
+    border-style:double;
+}
+header nav ul li {
+    display: inline;
+}
+.contact {
+    text-align: right;
+}
+.Max {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: lightpink;
+    color: darkmagenta;
+    overflow: auto;
+}
+.contact h2 {
+    color: crimson;
+}
+.intro {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: lightpink;
+    color: darkmagenta;
+    overflow: auto;
+    float: left;
 }

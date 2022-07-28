@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8" />
         <title>Professional Portfolio</title>
         <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <h1> My Portfolio</h1>
+        <header>
+            <h1>
+                <a href="/">MAX LANFEAR</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#my portfolio">My Portfolio</a>
+                        ...
+                    </li>
 
-        <p>Take a Look!</p>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                        ...
+                    </li>
+
+                    <li>
+                        <a href="#contact-me">Contact Me!</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <section id="my-portfolio" class="intro">
+                <h2 class="section-title my-portfolio">My Portfolio</h2>
+                <p>
+                    ***
+                </p>
+            </section>
+
+            <section id="about-me" class="Max">
+                <h2 class="section-title primary-border">
+                    Meet Max
+                </h2>
+                <article class="Max">
+                    <img src="../style.css/trainer-1.jpg" alt="Max Lanfear in his element. Computers" />
+                    <div class="trainer-bio text-left">
+                        <h3>Max Lanfear</h3>
+                        <h4>Eugene, OR</h4>
+                        <p>max max max max max</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="contact-me" class="contact">
+                <h2 class="section-title secondary-border">Contact Me!</h2>
+                    <div class="contact-info">
+                        <div class="contact-me">
+                            <h3> Contact Info</h3>
+                            <form>
+                                <Label for="contact-name"> Your Name</Label>
+                                <input type="text" id="contact-name" placeholder="Your Name" />
+
+                                <Label for="contact-message">Mesage</Label>
+                                <textarea id="contact-message" placeholder="Message"></textarea>
+
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+            </section>
+        </header>
     
     </body>
 </html>
