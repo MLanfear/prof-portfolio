@@ -61,6 +61,10 @@ header nav ul li {
 }
 .contact h2 {
     color: crimson;
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: lightseagreen;
+    overflow: auto;
 }
 .intro {
     width: 900px;
@@ -69,4 +73,20 @@ header nav ul li {
     color: darkmagenta;
     overflow: auto;
     float: left;
+}
+html {
+    color: lightseagreen;
+}
+.contact-info {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+}
+.contact-me {
+    font-size: 20px;
+}
+.contact-me h3 {
+    font-size: 35px;
 }
