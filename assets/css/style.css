@@ -33,7 +33,7 @@ header h1 {
     font-size: 65px;
     color:red;
     margin-bottom: 43px;
-    padding: 0 125px 20px 125px;
+    padding: 0 20px 20px 20px;
     display: inline-block;
     border: 3px solid;
 }
@@ -59,13 +59,14 @@ header nav ul li {
 }
 .Max {
     text-align: center;
-    width: 1400px;
+    width: 1100px;
     margin: 0 30px 30px 30px;
     background: aquamarine;
     color: darkmagenta;
     overflow: auto;
     border: 10px bold black;
     padding-right: 40px;
+    display: inline-flex;
 }
 .contact h2 {
     color: crimson;
@@ -78,13 +79,13 @@ header nav ul li {
     padding-right: 20px;
 }
 .intro {
-    width: 1200px;
     margin: 0 auto 30px auto;
     background: skyblue;
     color: darkmagenta;
     overflow: auto;
     float: left;
     font-size: 35px;
+    block-size: auto;
 }
 html {
     color: aquamarine;
@@ -103,4 +104,15 @@ html {
 }
 .contact-me h3 {
     font-size: 35px;
+}
+
+.intro2 {
+    margin: 0 auto 30px auto;
+    background: teal;
+    color: darkmagenta;
+    overflow: auto;
+    float: right;
+    font-size: 35px;
+    height: 900px;
+    
 }
