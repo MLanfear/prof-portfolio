@@ -13,7 +13,7 @@ header {
     padding: 35px 50px;
 }
 header h1 {
-    color: magenta;
+    color: crimson;
     font-size: 90px;
     font-weight: bold;
     font-style: italic;
@@ -35,7 +35,7 @@ header h1 {
     margin-bottom: 43px;
     padding: 0 125px 20px 125px;
     display: inline-block;
-    border-bottom: 3px solid;
+    border: 3px solid;
 }
 section {
     padding: 60px;
@@ -43,13 +43,16 @@ section {
 }
 header nav {
     float: top;
-    margin: 7px 0;
-    padding-top: 10px;
+    margin: 10px 0;
+    padding-top: 5px;
     border: 10px solid darkmagenta;
     border-style:double;
+    text-align: center;
 }
 header nav ul li {
     display: inline-block;
+    padding: 20px 0px 20px 0px;
+    justify-content: space;
 }
 .contact {
     text-align: right;
@@ -58,28 +61,31 @@ header nav ul li {
     text-align: center;
     width: 900px;
     margin: 0 auto 30px auto;
-    background: seagreen;
+    background: aquamarine;
     color: darkmagenta;
     overflow: auto;
+    border: 10px bold black;
 }
 .contact h2 {
     color: crimson;
     width: 900px;
     height: 300px;
     margin: 0 auto 10px auto;
-    background: lightseagreen;
+    background: aquamarine;
     overflow: auto;
+    font-size: 35px;
 }
 .intro {
     width: 1200px;
     margin: 0 auto 30px auto;
-    background: seagreen;
+    background: skyblue;
     color: darkmagenta;
     overflow: auto;
     float: left;
+    font-size: 35px;
 }
 html {
-    color: lightseagreen;
+    color: aquamarine;
 }
 .contact-info {
     width: 410px;
