@@ -64,7 +64,7 @@ header nav ul li {
     background: aquamarine;
     color: darkmagenta;
     overflow: auto;
-    border: 10px bold black;
+    border-top: 10px bold black;
     padding-right: 40px;
     display: inline-flex;
 }
@@ -79,7 +79,7 @@ header nav ul li {
     display: inline;
 }
 .intro {
-    margin: 0 auto 30px auto;
+    margin: 0 30px 30px 30px;
     background: skyblue;
     color: darkmagenta;
     overflow: auto;
@@ -92,10 +92,10 @@ header nav ul li {
     width: 410px;
     height: 410px;
     display: inline-block;
-    vertical-align: center;
     text-align: left;
-    margin: 30px 0 0 60px;
+    margin: 0 30px 30px 30px;
     background-color: beige;
+    padding: 30px;
 }
 .contact-me {
     font-size: 20px;
@@ -105,12 +105,22 @@ header nav ul li {
 }
 
 .intro2 {
-    margin: 0 auto 30px auto;
+    margin: 0 30px 30px 30px;
     background: teal;
     color: darkmagenta;
     overflow: auto;
     float: right;
     font-size: 35px;
     height: 900px;
-    
+}
+
+.photos {
+    margin: 0 30px 30px 30px;
+    background: blueviolet;
+    font-size: 55px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    padding-block: 10px;
+    height: 500px;
 }
