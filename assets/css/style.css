@@ -19,23 +19,23 @@ header h1 {
     font-style: italic;
     margin: 0;
     text-align: center;
-    width: 1600px;
+    width: stretch;
     height: 150px;
     background-color: aquamarine;
 }
 .primary-border {
-    color:crimson;
+    color:black bold;
 }
 .secondary-border {
     color:cadetblue
 }
 .section-title {
-    font-size: 65px;
-    color:red;
+    font-size: 55px;
+    color:crimson;
     margin-bottom: 43px;
     padding: 0 20px 20px 20px;
     display: inline-block;
-    border: 3px solid;
+    
 }
 section {
     padding: 60px;
@@ -73,10 +73,10 @@ header nav ul li {
     width: 900px;
     height: 300px;
     margin: 0 auto 10px auto;
-    background: aquamarine;
     overflow: auto;
     font-size: 35px;
     padding-right: 20px;
+    display: inline;
 }
 .intro {
     margin: 0 auto 30px auto;
@@ -87,14 +87,12 @@ header nav ul li {
     font-size: 35px;
     block-size: auto;
 }
-html {
-    color: aquamarine;
-}
+
 .contact-info {
     width: 410px;
     height: 410px;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
     text-align: left;
     margin: 30px 0 0 60px;
     background-color: beige;
